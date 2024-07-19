@@ -1,6 +1,10 @@
 import React from 'react'
 import styles from './style'
 
+import { Business, CardDeal, Clients, Footer, Hero, NavBar, Stats, Testimonials } from './components'
+
+
+
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
 
@@ -29,7 +33,7 @@ const App = () => (
         Cliens
         CTA Section
         Footer
-        
+
       </div>
     </div>
   </div>
