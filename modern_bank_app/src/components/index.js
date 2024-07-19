@@ -1,14 +1,14 @@
-import Billing from './components/Billing'
-import Business from './components/Business'
-import CardDeal from './components/CardDeal'
-import Testimonials from './components/Testimonials'
-import Button from './components/Button'
-import Footer from './components/Footer'
-import Stats from './components/Stats'
-import CTA from './components/CTA'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import Clients from './components/Clients'
+import Billing from './Billing';
+import Business from './Business';
+import CardDeal from './CardDeal';
+import Testimonials from './Testimonials';
+import Button from './Button';
+import Footer from './Footer';
+import Stats from './Stats';
+import CTA from './CTA';
+import Navbar from './Navbar';
+import Hero from './Hero';
+import Clients from './Clients';
 
 export {
   Billing,
