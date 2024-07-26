@@ -2,14 +2,14 @@ import { useState } from "react";
 
 import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
-import apexbank from "../assets/apexbank.png";
+import apexbank4 from "../assets/apexbank4.png";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
       {/* // Add the logo image here */}
-      <img src={apexbank} alt="Apexbank Logo" className="w-[124px] h-[32px]" />
+      <img src={apexbank4} alt="Apexbank Logo" className="w-[124px] h-[32px]" />
 
       {/* //This navbar list is for screens larger than mobile */}
       <ul className="list-none sm:flex hidden justify-end items center flex-1">
